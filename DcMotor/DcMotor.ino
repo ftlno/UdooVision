@@ -30,17 +30,17 @@ void stop(){
 
 void loop() {
   int incoming = 0;
-  
+
   while(Serial.available() > 0){
     incoming = Serial.read();
     received = true;
   }
-  
+
   if(received ){
     if(incoming == 1){
-      speed(0,50);
+      speed(20,50);
     }else if(incoming == 2){
-      speed(50,0);
+      speed(50,20);
     }else if(incoming == 3){
       speed(50,50);
     }else{
