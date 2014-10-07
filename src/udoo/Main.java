@@ -29,7 +29,7 @@ public class Main {
 	private static JLabel label;
 	private static Container container;
 	private static VideoCapture camera;
-	private static boolean enableGui = false;
+	private static boolean enableGui = true;
 	private static final int WIDTH = 640;
 	private static final int HEIGHT = 380;
 	private static int faceCenterX = 0;

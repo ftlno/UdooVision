@@ -35,27 +35,23 @@ public class ArduinoConnection {
 		} catch (Exception e) {
 		}
 	}
-	
+
 	public boolean isReady(){
 		return out != null;
 	}
 
 	public void connect() throws Exception {
 		System.setProperty("gnu.io.rxtx.SerialPorts", "/dev/ttymxc3");
-		String PORT_NAMES[] = { "/dev/ttymxc3", };
-
 		CommPortIdentifier portId = null;
 		Enumeration portEnum = CommPortIdentifier.getPortIdentifiers();
 
 		while (portEnum.hasMoreElements()) {
 			CommPortIdentifier currPortId = (CommPortIdentifier) portEnum
 					.nextElement();
-			for (String portName : PORT_NAMES) {
-				if (currPortId.getName().equals(portName)) {
-					portId = currPortId;
-					break;
-				}
-			}
+					if(currPortId.equals("/dev/ttymxc3")){
+						portId = currPortId;
+						break;
+					};
 		}
 		if (portId == null) {
 			System.out.println("Could not find COM port.");
