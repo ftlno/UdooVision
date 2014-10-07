@@ -42,7 +42,7 @@ void loop() {
     }else if(incoming == 2){
       speed(50,20);
     }else if(incoming == 3){
-      speed(50,50);
+      speed(70,70);
     }else{
       stop();
     }
