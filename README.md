@@ -12,7 +12,7 @@ Buggy, but fully working. It is easy to enable gui in Java for easy debugging.
 
 Help:
 ----------
-Just send me a email if you need help with either hardware or software.
+Just send me a email if you need help with the software or hardware.
 
 Complete shopping list:
 ----------
