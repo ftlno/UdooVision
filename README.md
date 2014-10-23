@@ -14,7 +14,7 @@ Help:
 ----------
 Just send me a email if you need help with either hardware or software.
 
-Complete shoppinglist:
+Complete shopping list:
 ----------
 - Udoo - http://www.udoo.org
 - Motor shield - http://www.adafruit.com/products/1438
