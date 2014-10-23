@@ -14,14 +14,14 @@ Help:
 ----------
 Just send me a email if you need help with either hardware or software.
 
-Udoo:
+Complete shoppinglist:
 ----------
-Udoo - http://www.udoo.org
-Motor shield - http://www.adafruit.com/products/1438
-Camera - http://shop.udoo.org/eu/catalog/product/view/id/27/s/autofocus-camera-5-0/category/3/
-Motors - Whatever DC motors are cheap.
-Motor axels - Made with Sugru
-The rest - LEGO.
+- Udoo - http://www.udoo.org
+- Motor shield - http://www.adafruit.com/products/1438
+- Camera - http://shop.udoo.org/eu/catalog/product/view/id/27/s/autofocus-camera-5-0/category/3/
+- Motors - Whatever DC motors are cheap.
+- Motor axels - Made with Sugru
+- The rest - LEGO.
 
 License
 ----------
